@@ -1,0 +1,65 @@
+<html>
+    <head>
+        <title>Lesson Five-Forms</title>
+    </head>
+    <body>
+        <center><h1>HTML FORMS</h1></center>
+
+        <!--HTML forms are used to collect user data and store the same data inside of a database.Forms in HTML are introduced by the use of the form tag element. To have a partion in a form we use fieldset tag element. To label/give a heading to the partion we use the legend tag element. A form uses different input types to collect the user data ie text,email,password,checkbox,radioand file.-->
+        <form>
+            <!-- first partition starts here-->
+                <fieldset>
+                    <legend>Personal Details</legend>
+
+                    <input type="text" placeholder="Enter Full Name"> <br> <br>
+
+                    <input type="number" placeholder="Enter ID No"> <br> <br>
+
+                    <input type="email" placeholder="Enter the Email Address"> <br> <br>
+
+                    <input type="password" placeholder="Enter password"> <br> <br>
+
+                    <label>Your D.O.B</label> <br>
+                    <input type="date">
+                </fieldset>
+             <!--first partition ends here-->
+             <!--second partition starts here-->
+                <fieldset>
+                    <legend>Selections</legend>
+                    
+                    <label>Your interests/hobbies</label> <br> <br>
+                    <input type="checkbox">Swimming <br>
+                    <input type="checkbox">Bike riding <br>
+                    <input type="checkbox">Coding <br>
+                    <input type="checkbox">Literature <br> <br>
+
+
+                    <label>Gender</label> <br> <br>
+                    <input type="radio" name="Gender"> Male <br>
+                    <input type="radio" name="Gender"> Female <br>
+
+                    <label>Choose your profile picture</label> <br> <br>
+                    <input type="file"> <br> <br>
+
+                    <label>Select a course</label> <br> <br>
+                    <select>
+                        <option value="0">Choose a course</option>
+                        <option value="1">Computer Science</option>
+                        <option value="2">Bachelor of Business, Information Technology</option>
+                        <option value="3">Bachelors of Information Technology</option>
+                    </select>
+                </fieldset>
+                  <!--second partition ends here-->
+                  <!-- third partition starts here -->
+                   <fieldset>
+                        <legend>Feedback</legend>
+                        <label>Leave a comment</label> <br> <br>
+                        <textarea cols="80" rows="9" placeholder="Type your feedback here..."></textarea>
+                   </fieldset>
+                   <!-- end of third partition -->
+                    <input type="submit" value="Make Application"> <br> <br>
+                    <input type="reset">
+        </form>
+
+    </body>
+</html>
