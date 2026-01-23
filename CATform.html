@@ -1,0 +1,55 @@
+<html>
+    <head>
+        <title>CAT form</title>
+        <style>
+            body{
+                background-color: greenyellow;
+                text-align: center;
+            }
+            h3{
+                color: rgb(200, 68, 68);
+            }
+            #submit{
+                background-color: chocolate;
+                text-transform:uppercase;
+                border-radius: 5px;
+                color: aliceblue;
+                font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+                border: none;
+                font-size: 20px;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <form>
+            <fieldset>
+                
+                    <h3>Personal details</h3>
+                        <h5>Name:<input type="text"></h5> 
+                        <h5>Password: <input type="password"></h5>
+                        <h5>Email id: <input type="email"></h5>
+                        <h5>Gender: <input type="radio" name="Gender"><label>Male</label> <input type="radio" name="Gender"><label>Female</label></h5>
+                        <h5>Contact#: <input type="number"></h5>
+
+                    <h3>Educational Qualification</h3>
+                        <h5>Degree:
+                            <select>
+                        <option value="0">--Select Group--</option> </select>
+                        </h5>    
+                        <h5>Engineering:
+                            <select>
+                        <option value="0">--Select Group--</option> </select>
+                        </h5>
+                        <h5>Hobbies:<input type="checkbox">Playing chess
+                        <input type="checkbox">Reading Books</h5> 
+                        
+                    <h3>Address</h3> 
+                    <textarea cols="50" rows="9"></textarea>
+                        <h5>Attch Resume: <input type="file"></h5>  
+                        <input type="submit" id="submit"> 
+                
+            </fieldset>
+        </form>
+    </body>
+</html>
